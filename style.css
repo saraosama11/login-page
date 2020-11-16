@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+font-family: sans-serif;
+background-image: url(tritlee.jpg);
+background-size: cover;
+background-position: center;
+}
+.sign-up-form{
+    width:360px;
+box-shadow: 0 0 3px 0 rgb(0,0,0,0.3);
+background: #fff;
+padding: 30px;
+margin: 35% auto 0;
+text-align: center;
+}
+.sign-up-form h1{
+    color: rgb(223, 69, 69);
+    margin-bottom: 50px ;
+
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid rgb(197, 111, 111);
+    outline: none;
+}
+button{
+    color:rgb(167, 65, 65);
+    width:100%;
+    padding:10px;
+    border-radius: 20px;
+    font-size:20px;
+    margin:15px 0;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+.login-btn{
+    background-color: rgb(201, 200, 200);
+}
+nav{
+    background:rgb(201, 200, 200);
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    clor:black;
+    font-size: 50px;
+    line-height: 80px;
+    font-weight:bold ;
+   
+}
+nav .links{
+    float:right;
+    padding: 0%;
+    margin:0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav .links li{
+    list-style: none;
+}
+nav .links a{
+    display: block;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(28, 28, 110);
+    text-decoration: none;
+    
+}
